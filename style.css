@@ -1,0 +1,56 @@
+html {
+	box-sizing:border-box;
+}
+
+*, *:before, * :after {
+	box-sizing:inherit;
+}
+
+*:focus, *:hovr{
+	outline: rgb(41,105,152) solid 3px;
+}
+
+body{
+	background-color: rgb(91, 163, 214);
+}
+ 
+#container{
+	display:flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	color: white;
+	font-family: helvetica, sans-serif;
+}
+
+/*form {
+	display: flex;
+	display: column;
+}*/
+textarea{
+	height: 200px;
+	width:395px;	
+	background-color: rgb(91, 163, 214);
+	border-width: 3px;
+	color:white;
+}
+
+input{
+	outline: #FFF solid 3px;
+	height:48px;
+	width: 395px;
+	background-color: rgb(91, 163, 214);
+	border:none;
+	color:white;
+}
+
+select{
+	height: 30px;
+	width: 395px;
+	background-color: rgb(91, 163, 214)
+}
+
+::-webkit-input-placeholder {
+
+    color: rgb(41, 105, 152);
+    font-style: italic;
+}
